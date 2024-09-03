@@ -34,7 +34,7 @@ const Home = () => {
                 >
                     Services
                 </Heading>
-                <stack 
+                <Stack 
                 h="full"
                 p={'4'}
                 alignItems={'center'}
@@ -63,7 +63,7 @@ const Home = () => {
                     molestias fugit harum reprehenderit incidunt. Quis cumque explicabo
                     omnis officiis autem dolorum!
                     </Text>
-                </stack>
+                </Stack>
                 </Container>
         </Box>
     );
@@ -80,6 +80,13 @@ const MyCarousel = () => (
     >
         <Box w="full" h={'100vh'}>
             <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
+            <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions} >
+                Future is Gaming
+            </Heading>
+        </Box>
+
+        <Box w="full" h={'100vh'}>
+            <Image src={img2} h="full" w={'full'} objectFit={'cover'} />
             <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions} >
                 Future is Gaming
             </Heading>
