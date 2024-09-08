@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import Footer from './components/Footer';
 import Signup from './components/Signup';
-import cideos from './components/Videos';
+import Videos from './components/Videos';
 import Upload from './components/Upload';
 
 function App() {
